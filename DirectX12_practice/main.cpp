@@ -21,12 +21,14 @@ IDXGISwapChain4* _swapchain = nullptr;
 
 auto result = CreateDXGIFactory(IID_PPV_ARGS(&_dxgiFactory));
 
+/*
 HRESULT D3D12CreateDevice(
 	IUnknown* pAdapter,//ひとまずはnullptrでOK
 	D3D_FEATURE_LEVEL MinimumFeatureaLevel,//最低限必要なフィーチャーレベル
 	REFIID riid,
 	void** ppDevice
 );
+*/
 
 D3D_FEATURE_LEVEL levels[] =
 {
